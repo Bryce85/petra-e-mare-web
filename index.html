@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PETRA e MARE | Villa Privada Frente al Cantábrico · Islares, Cantabria</title>
+  <meta name="description" content="Villa privada de lujo en Islares, Castro Urdiales. Piscina infinity, jacuzzi, 4 dormitorios, vistas al Cantábrico. Ideal para 8 huéspedes. Gestionado por Fine Line Company." />
+  <meta property="og:title" content="PETRA e MARE | Villa Privada Frente al Cantábrico" />
+  <meta property="og:description" content="Una villa íntima, privada y luminosa sobre el acantilado en Islares, Cantabria. Piscina infinity, jacuzzi, vistas abiertas al mar." />
+  <meta property="og:image" content="images/hero-pool-sunset.jpg" />
+  <link rel="canonical" href="https://petraemare.com/" />
+
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-primary-container": "#958f8a",
+            "primary-fixed": "#e9e1dc",
+            "inverse-on-surface": "#f3f0ec",
+            "error-container": "#ffdad6",
+            "on-tertiary": "#ffffff",
+            "outline-variant": "#cfc4bd",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#186e7d",
+            "surface-container-high": "#ebe8e4",
+            "tertiary-fixed": "#ffdbc9",
+            "background": "#fcf9f5",
+            "secondary": "#0b6876",
+            "tertiary-container": "#471c00",
+            "on-secondary-fixed-variant": "#004e5a",
+            "on-error-container": "#93000a",
+            "on-background": "#1c1c1a",
+            "surface-container-lowest": "#ffffff",
+            "surface": "#fcf9f5",
+            "surface-container-highest": "#e5e2de",
+            "inverse-primary": "#cdc5c0",
+            "on-primary-fixed-variant": "#4b4642",
+            "on-secondary": "#ffffff",
+            "on-error": "#ffffff",
+            "surface-container": "#f0ede9",
+            "surface-container-low": "#f6f3ef",
+            "primary-fixed-dim": "#cdc5c0",
+            "on-surface-variant": "#4d4540",
+            "on-tertiary-container": "#cb7c4c",
+            "secondary-container": "#a4eeff",
+            "primary": "#171411",
+            "on-secondary-fixed": "#001f25",
+            "secondary-fixed-dim": "#88d2e2",
+            "tertiary-fixed-dim": "#ffb68c",
+            "surface-dim": "#dcdad6",
+            "surface-variant": "#e5e2de",
+            "tertiary": "#270c00",
+            "surface-bright": "#fcf9f5",
+            "inverse-surface": "#31302e",
+            "secondary-fixed": "#a4eeff",
+            "outline": "#7e756f",
+            "error": "#ba1a1a",
+            "primary-container": "#2c2825",
+            "surface-tint": "#635d5a",
+            "on-tertiary-fixed": "#321200",
+            "on-surface": "#1c1c1a",
+            "on-primary-fixed": "#1e1b18",
+            "on-tertiary-fixed-variant": "#72360a"
+          },
+          fontFamily: {
+            "headline": ["Cormorant Garamond", "serif"],
+            "body": ["DM Sans", "sans-serif"],
+            "label": ["DM Sans", "sans-serif"],
+            "accent": ["Playfair Display", "serif"]
+          },
+          borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "9999px" },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+      font-size: 20px;
+    }
+    .glass-nav {
+      background: rgba(252, 249, 245, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .editorial-shadow {
+      box-shadow: 0 20px 40px rgba(44, 40, 37, 0.04);
+    }
+    .sand-line {
+      height: 1px;
+      background-color: #D4C8B8;
+      width: 50%;
+      opacity: 0.5;
+    }
+    .cormorant { font-family: 'Cormorant Garamond', serif; }
+    .dm-sans { font-family: 'DM Sans', sans-serif; }
+    .playfair { font-family: 'Playfair Display', serif; }
+
+    details summary::-webkit-details-marker { display: none; }
+    details[open] .icon-expand { transform: rotate(180deg); }
+
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: flex; }
+
+    nav.scrolled {
+      box-shadow: 0 2px 24px rgba(44,40,37,0.08);
+    }
+
+    /* Ensure select option text visible on dark bg */
+    select option { color: #171411; background: #fcf9f5; }
+  </style>
+</head>
+
+<body class="bg-surface text-on-surface font-body selection:bg-secondary/20">
+
+  <!-- ======== NAV ======== -->
+  <nav id="main-nav" class="fixed top-0 w-full z-50 flex justify-between items-center px-6 md:px-12 lg:px-16 py-5 glass-nav transition-all duration-500">
+    <a href="#" class="text-xl md:text-2xl font-light tracking-widest text-primary cormorant flex-shrink-0">
+      PETRA <span class="playfair italic font-normal lowercase">e</span> MARE
+    </a>
+
+    <div class="hidden md:flex gap-7 lg:gap-10 items-center">
+      <a class="text-primary hover:text-secondary transition-colors dm-sans text-[12px] tracking-widest uppercase" href="#villa">La Villa</a>
+      <a class="text-primary hover:text-secondary transition-colors dm-sans text-[12px] tracking-widest uppercase" href="#entorno">Entorno</a>
+      <a class="text-primary hover:text-secondary transition-colors dm-sans text-[12px] tracking-widest uppercase" href="#experiencias">Experiencias</a>
+      <a class="text-primary hover:text-secondary transition-colors dm-sans text-[12px] tracking-widest uppercase" href="#info">Tarifas</a>
+      <a class="text-primary hover:text-secondary transition-colors dm-sans text-[12px] tracking-widest uppercase" href="#contacto">Contacto</a>
+    </div>
+
+    <div class="flex items-center gap-4">
+      <a href="#contacto" class="hidden md:inline-block bg-primary-container text-background px-5 py-3 text-[11px] font-medium tracking-[3px] uppercase hover:opacity-90 transition-all active:scale-95 flex-shrink-0">
+        Consultar fechas
+      </a>
+      <button id="hamburger" class="md:hidden flex flex-col justify-center gap-[5px] w-8 h-8" aria-label="Abrir menú">
+        <span class="block w-6 h-px bg-primary transition-all duration-300" id="bar1"></span>
+        <span class="block w-6 h-px bg-primary transition-all duration-300" id="bar2"></span>
+        <span class="block w-4 h-px bg-primary transition-all duration-300" id="bar3"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="fixed top-0 left-0 w-full h-screen z-40 bg-surface flex-col items-center justify-center gap-8 pt-20">
+    <a class="text-primary dm-sans text-[14px] tracking-widest uppercase" href="#villa" onclick="closeMobileMenu()">La Villa</a>
+    <a class="text-primary dm-sans text-[14px] tracking-widest uppercase" href="#entorno" onclick="closeMobileMenu()">Entorno</a>
+    <a class="text-primary dm-sans text-[14px] tracking-widest uppercase" href="#experiencias" onclick="closeMobileMenu()">Experiencias</a>
+    <a class="text-primary dm-sans text-[14px] tracking-widest uppercase" href="#info" onclick="closeMobileMenu()">Tarifas</a>
+    <a class="text-primary dm-sans text-[14px] tracking-widest uppercase" href="#contacto" onclick="closeMobileMenu()">Contacto</a>
+    <a href="#contacto" onclick="closeMobileMenu()" class="mt-4 bg-primary-container text-background px-8 py-4 text-[11px] font-medium tracking-[3px] uppercase">
+      Consultar fechas
+    </a>
+  </div>
+
+  <!-- ======== HERO ======== -->
+  <section class="relative h-screen w-full flex items-end justify-center overflow-hidden pb-16 md:pb-20">
+    <div class="absolute inset-0 bg-primary-container">
+      <img
+        src="images/hero-pool-sunset.jpg"
+        alt="Piscina infinity de Petra e Mare al atardecer frente al Cantábrico"
+        class="w-full h-full object-cover opacity-80"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-primary/20 via-transparent to-primary/75"></div>
+    </div>
+
+    <div class="relative z-10 text-center text-white px-6 max-w-5xl mx-auto w-full">
+      <span class="dm-sans text-[10px] uppercase tracking-[5px] mb-6 block opacity-90">ISLARES · CASTRO URDIALES · CANTABRIA</span>
+
+      <h1 class="cormorant font-light leading-none mb-6" style="font-size: clamp(4rem, 12vw, 10rem); letter-spacing: 0.12em;">
+        PETRA<br/>
+        <span class="playfair italic font-normal" style="font-size: clamp(2.5rem, 8vw, 7rem);">e</span><br/>
+        MARE
+      </h1>
+
+      <p class="cormorant italic text-lg md:text-2xl mb-8 font-light opacity-90">Donde el horizonte marca el ritmo</p>
+
+      <div class="flex flex-wrap justify-center gap-x-5 gap-y-3 dm-sans text-[10px] uppercase tracking-[3px] mb-10 opacity-75">
+        <span>Ideal para 8 huéspedes &middot; cap. máx. 11</span>
+        <span class="hidden md:inline text-white/30">&middot;</span>
+        <span>4 dormitorios</span>
+        <span class="hidden md:inline text-white/30">&middot;</span>
+        <span>Piscina infinity</span>
+        <span class="hidden md:inline text-white/30">&middot;</span>
+        <span>Vistas al Cantábrico</span>
+        <span class="hidden md:inline text-white/30">&middot;</span>
+        <span>Pet friendly</span>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contacto" class="bg-surface text-primary px-8 py-4 text-[11px] font-medium tracking-[3px] uppercase hover:bg-white transition-all">
+          Consultar disponibilidad
+        </a>
+        <a href="https://wa.me/34XXXXXXXXX?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20disponibilidad%20en%20Petra%20e%20Mare." class="border border-white/50 text-white px-8 py-4 text-[11px] font-medium tracking-[3px] uppercase hover:bg-white/10 transition-all">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
+      <span class="material-symbols-outlined" style="font-size:28px;">expand_more</span>
+    </div>
+  </section>
+
+  <!-- ======== RESUMEN / INTRO ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-5 block">UNA VILLA ESPECIAL FRENTE AL CANT&#193;BRICO</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-primary leading-tight max-w-2xl mx-auto">Un lugar &#237;ntimo, privado y luminoso</h2>
+        <div class="sand-line mx-auto mt-8"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10 md:gap-16 mb-16 text-on-surface-variant leading-relaxed font-light dm-sans text-base">
+        <p>Petra e Mare es una villa de una sola planta situada sobre el acantilado, en uno de los enclaves costeros m&#225;s bonitos de Cantabria. Un lugar &#237;ntimo, privado y luminoso, donde el mar, el jard&#237;n y la calma marcan la experiencia.</p>
+        <p>Inspirada en la sencillez y la calidez de las casas mediterr&#225;neas, combina amplitud, comodidad y una ubicaci&#243;n dif&#237;cil de igualar. Est&#225; pensada para descansar, compartir, trabajar a distancia o disfrutar de unos d&#237;as especiales entre mar y monta&#241;a.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-outline-variant/30 pt-12">
+        <div class="text-center">
+          <div class="cormorant text-5xl md:text-6xl text-primary font-light mb-2">4</div>
+          <div class="dm-sans text-[11px] uppercase tracking-[3px] text-on-surface-variant">Dormitorios</div>
+        </div>
+        <div class="text-center">
+          <div class="cormorant text-5xl md:text-6xl text-primary font-light mb-2">3</div>
+          <div class="dm-sans text-[11px] uppercase tracking-[3px] text-on-surface-variant">Ba&#241;os</div>
+        </div>
+        <div class="text-center">
+          <div class="cormorant text-5xl md:text-6xl text-primary font-light mb-2">&#8734;</div>
+          <div class="dm-sans text-[11px] uppercase tracking-[3px] text-on-surface-variant">Piscina Infinity</div>
+        </div>
+        <div class="text-center">
+          <div class="cormorant text-5xl md:text-6xl text-primary font-light mb-2">360&#176;</div>
+          <div class="dm-sans text-[11px] uppercase tracking-[3px] text-on-surface-variant">Vistas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SOBRE EL ALOJAMIENTO ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface overflow-hidden" id="villa">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-20 items-center">
+
+      <div class="w-full lg:w-[55%] relative">
+        <div class="aspect-[4/5] overflow-hidden">
+          <img
+            src="images/bedroom-sea-view.jpg"
+            alt="Dormitorio de Petra e Mare con vistas al mar Cant&#225;brico"
+            class="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-700"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <div class="w-full lg:w-[45%] space-y-8">
+        <div>
+          <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">EL ALOJAMIENTO</span>
+          <h2 class="cormorant text-4xl md:text-5xl text-primary leading-tight">Espacios amplios, luz natural y conexi&#243;n constante con el paisaje</h2>
+        </div>
+        <p class="dm-sans text-on-surface-variant leading-relaxed font-light text-base">
+          La villa cuenta con cuatro dormitorios, tres ba&#241;os, una gran cocina con isla, amplio sal&#243;n-comedor, porche, jard&#237;n, piscina infinity, sol&#225;rium y jacuzzi exterior con agua caliente. Todo el alojamiento ha sido pensado para disfrutar tanto del interior como del exterior, con una distribuci&#243;n c&#243;moda, c&#225;lida y funcional, ideal para estancias en pareja, en familia, con amigos o para largas temporadas.
+        </p>
+        <ul class="space-y-5">
+          <li class="flex gap-4 items-start">
+            <span class="material-symbols-outlined text-secondary mt-0.5 flex-shrink-0">pool</span>
+            <span class="dm-sans text-sm text-on-surface-variant leading-relaxed">Piscina infinity con vistas abiertas al horizonte cant&#225;brico, abierta todo el a&#241;o.</span>
+          </li>
+          <li class="flex gap-4 items-start">
+            <span class="material-symbols-outlined text-secondary mt-0.5 flex-shrink-0">hot_tub</span>
+            <span class="dm-sans text-sm text-on-surface-variant leading-relaxed">Jacuzzi exterior con agua caliente, ideal para cualquier estaci&#243;n.</span>
+          </li>
+          <li class="flex gap-4 items-start">
+            <span class="material-symbols-outlined text-secondary mt-0.5 flex-shrink-0">light_mode</span>
+            <span class="dm-sans text-sm text-on-surface-variant leading-relaxed">Luz natural abundante en cada espacio, sal&#243;n-comedor abierto al porche y terrazas privadas.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== GALLERY STRIP 1 ======== -->
+  <div class="grid grid-cols-3 gap-0 h-64 md:h-80 lg:h-96">
+    <div class="overflow-hidden">
+      <img src="images/pool-night.jpg" alt="Piscina infinity de Petra e Mare de noche" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+    </div>
+    <div class="overflow-hidden">
+      <img src="images/jacuzzi.jpg" alt="Jacuzzi exterior de Petra e Mare" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+    </div>
+    <div class="overflow-hidden">
+      <img src="images/pool-day.jpg" alt="Piscina infinity de Petra e Mare de d&#237;a" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+    </div>
+  </div>
+
+  <!-- ======== LA EXPERIENCIA ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface-container-low" id="experiencias">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">LA EXPERIENCIA</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-primary mb-6">Privacidad, vistas y tiempo de calidad</h2>
+        <p class="dm-sans text-on-surface-variant max-w-2xl mx-auto font-light leading-relaxed">
+          Aqu&#237; la experiencia no se limita a dormir frente al mar. Petra e Mare invita a desayunar con vistas abiertas, leer al sol, trabajar con tranquilidad, ba&#241;arse mirando al horizonte, comer al aire libre y terminar el d&#237;a entre el jacuzzi y la brisa del Cant&#225;brico.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+        <div class="relative group aspect-[4/5] overflow-hidden">
+          <img src="images/surf-pool.jpg" alt="Surf en las playas del Cant&#225;brico cerca de Petra e Mare" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 p-6 md:p-8">
+            <h3 class="cormorant text-2xl md:text-3xl text-white mb-1">Surf &amp; Mar</h3>
+            <p class="dm-sans text-[10px] text-white/70 tracking-wider uppercase">Playas y calas a minutos</p>
+          </div>
+        </div>
+        <div class="relative group aspect-[4/5] overflow-hidden">
+          <img src="images/living-room.jpg" alt="Sal&#243;n de Petra e Mare para gastronomia y disfrute" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 p-6 md:p-8">
+            <h3 class="cormorant text-2xl md:text-3xl text-white mb-1">Gastronom&#237;a</h3>
+            <p class="dm-sans text-[10px] text-white/70 tracking-wider uppercase">Castro Urdiales y alrededores</p>
+          </div>
+        </div>
+        <div class="relative group aspect-[4/5] overflow-hidden">
+          <img src="images/pool-moon.jpg" alt="Piscina de Petra e Mare bajo la luna para bienestar y descanso" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 p-6 md:p-8">
+            <h3 class="cormorant text-2xl md:text-3xl text-white mb-1">Yoga &amp; Bienestar</h3>
+            <p class="dm-sans text-[10px] text-white/70 tracking-wider uppercase">Calma, jacuzzi y vistas</p>
+          </div>
+        </div>
+        <div class="relative group aspect-[4/5] overflow-hidden">
+          <img src="images/cliffs-sea.jpg" alt="Acantilados del Camino de Santiago cerca de Petra e Mare" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 p-6 md:p-8">
+            <h3 class="cormorant text-2xl md:text-3xl text-white mb-1">Camino de Santiago</h3>
+            <p class="dm-sans text-[10px] text-white/70 tracking-wider uppercase">Rutas costeras e historia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== DISTRIBUCIÓN ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface" id="distribucion">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">DISTRIBUCI&#211;N</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-primary">La villa, a tu medida</h2>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-20">
+        <!-- Espacios -->
+        <div>
+          <h3 class="dm-sans text-[11px] font-medium tracking-[3px] uppercase text-on-surface-variant mb-8 border-b border-outline-variant/30 pb-4">ESPACIOS</h3>
+          <ul class="space-y-5">
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">living</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Sal&#243;n-comedor amplio con acceso a terraza</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">kitchen</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Cocina equipada con isla central</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">deck</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Porche y terraza exterior privada</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">yard</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Jard&#237;n privado con sol&#225;rium</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">pool</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Piscina infinity &mdash; abierta todo el a&#241;o</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">hot_tub</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Jacuzzi exterior con agua caliente</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">outdoor_grill</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Barbacoa disponible</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">shower</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Ducha exterior</span>
+            </li>
+            <li class="flex gap-4 items-center">
+              <span class="material-symbols-outlined text-secondary flex-shrink-0">local_parking</span>
+              <span class="dm-sans text-sm text-on-surface-variant">Aparcamiento privado para varios veh&#237;culos</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Dormitorios accordion -->
+        <div>
+          <h3 class="dm-sans text-[11px] font-medium tracking-[3px] uppercase text-on-surface-variant mb-8 border-b border-outline-variant/30 pb-4">DORMITORIOS</h3>
+          <div class="divide-y divide-outline-variant/30">
+
+            <details class="group py-5">
+              <summary class="flex justify-between items-center cursor-pointer list-none">
+                <div class="flex items-center gap-4">
+                  <span class="material-symbols-outlined text-secondary flex-shrink-0">bed</span>
+                  <span class="dm-sans text-base font-light text-primary">Dormitorio 1</span>
+                </div>
+                <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+              </summary>
+              <div class="mt-4 pl-9 dm-sans text-sm text-on-surface-variant leading-relaxed space-y-1">
+                <p>&#183; 1 cama king size</p>
+                <p>&#183; 2 camas individuales</p>
+                <p>&#183; Cuna disponible bajo solicitud</p>
+              </div>
+            </details>
+
+            <details class="group py-5">
+              <summary class="flex justify-between items-center cursor-pointer list-none">
+                <div class="flex items-center gap-4">
+                  <span class="material-symbols-outlined text-secondary flex-shrink-0">bed</span>
+                  <span class="dm-sans text-base font-light text-primary">Dormitorio 2</span>
+                </div>
+                <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+              </summary>
+              <div class="mt-4 pl-9 dm-sans text-sm text-on-surface-variant leading-relaxed space-y-1">
+                <p>&#183; 1 cama king size</p>
+              </div>
+            </details>
+
+            <details class="group py-5">
+              <summary class="flex justify-between items-center cursor-pointer list-none">
+                <div class="flex items-center gap-4">
+                  <span class="material-symbols-outlined text-secondary flex-shrink-0">bed</span>
+                  <span class="dm-sans text-base font-light text-primary">Dormitorio 3</span>
+                </div>
+                <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+              </summary>
+              <div class="mt-4 pl-9 dm-sans text-sm text-on-surface-variant leading-relaxed space-y-1">
+                <p>&#183; 1 cama king size</p>
+                <p>&#183; 1 cama doble</p>
+              </div>
+            </details>
+
+            <details class="group py-5">
+              <summary class="flex justify-between items-center cursor-pointer list-none">
+                <div class="flex items-center gap-4">
+                  <span class="material-symbols-outlined text-secondary flex-shrink-0">bed</span>
+                  <span class="dm-sans text-base font-light text-primary">Dormitorio 4</span>
+                </div>
+                <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+              </summary>
+              <div class="mt-4 pl-9 dm-sans text-sm text-on-surface-variant leading-relaxed space-y-1">
+                <p>&#183; 1 cama doble</p>
+                <p>&#183; 1 cama individual</p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SERVICIOS ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface-container-low" id="servicios">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">SERVICIOS DESTACADOS</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-primary">Todo lo que necesitas, sin que tengas que pedirlo</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 lg:gap-20">
+        <div>
+          <h3 class="dm-sans text-[11px] font-medium tracking-[3px] uppercase text-secondary mb-8 flex items-center gap-3">
+            <span class="material-symbols-outlined">home</span> Interior
+          </h3>
+          <ul class="space-y-4">
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">kitchen</span><span class="dm-sans text-sm text-on-surface-variant">Cocina completamente equipada</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">wifi</span><span class="dm-sans text-sm text-on-surface-variant">WiFi de alta velocidad (trabajo remoto)</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">tv</span><span class="dm-sans text-sm text-on-surface-variant">TV con Chromecast</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">speaker</span><span class="dm-sans text-sm text-on-surface-variant">Sistema de sonido Bluetooth</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">local_laundry_service</span><span class="dm-sans text-sm text-on-surface-variant">Lavander&#237;a completa</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">bed</span><span class="dm-sans text-sm text-on-surface-variant">Ropa de cama y toallas incluidas</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">lock</span><span class="dm-sans text-sm text-on-surface-variant">Llegada aut&#243;noma con cerradura inteligente</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">laptop</span><span class="dm-sans text-sm text-on-surface-variant">Apto para trabajo remoto o estancias largas</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="dm-sans text-[11px] font-medium tracking-[3px] uppercase text-secondary mb-8 flex items-center gap-3">
+            <span class="material-symbols-outlined">park</span> Exterior
+          </h3>
+          <ul class="space-y-4">
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">pool</span><span class="dm-sans text-sm text-on-surface-variant">Piscina infinity abierta todo el a&#241;o</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">hot_tub</span><span class="dm-sans text-sm text-on-surface-variant">Jacuzzi con agua caliente</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">yard</span><span class="dm-sans text-sm text-on-surface-variant">Jard&#237;n privado</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">deck</span><span class="dm-sans text-sm text-on-surface-variant">Terraza y porche exteriores</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">outdoor_grill</span><span class="dm-sans text-sm text-on-surface-variant">Barbacoa</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">wb_sunny</span><span class="dm-sans text-sm text-on-surface-variant">Sol&#225;rium</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">shower</span><span class="dm-sans text-sm text-on-surface-variant">Ducha exterior</span></li>
+            <li class="flex gap-3 items-center"><span class="material-symbols-outlined text-on-surface-variant flex-shrink-0">local_parking</span><span class="dm-sans text-sm text-on-surface-variant">Aparcamiento privado para varios veh&#237;culos</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-14 flex flex-wrap gap-4 justify-center">
+        <div class="flex items-center gap-2 bg-surface border border-outline-variant/30 px-5 py-3 editorial-shadow">
+          <span class="material-symbols-outlined text-secondary">pets</span>
+          <span class="dm-sans text-[12px] tracking-wider uppercase text-on-surface-variant">Pet friendly</span>
+        </div>
+        <div class="flex items-center gap-2 bg-surface border border-outline-variant/30 px-5 py-3 editorial-shadow">
+          <span class="material-symbols-outlined text-secondary">calendar_month</span>
+          <span class="dm-sans text-[12px] tracking-wider uppercase text-on-surface-variant">Estancias largas disponibles</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== GALLERY STRIP 2 ======== -->
+  <div class="grid grid-cols-3 gap-0 h-64 md:h-80 lg:h-96">
+    <div class="overflow-hidden">
+      <img src="images/beach.jpg" alt="Playa cerca de Petra e Mare en Islares, Cantabria" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+    </div>
+    <div class="overflow-hidden">
+      <img src="images/cliffs-sea.jpg" alt="Acantilados del litoral cant&#225;brico cerca de la villa" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+    </div>
+    <div class="overflow-hidden">
+      <img src="images/sunset.jpg" alt="Atardecer desde Petra e Mare sobre el mar Cant&#225;brico" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+    </div>
+  </div>
+
+  <!-- ======== UBICACIÓN ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface overflow-hidden" id="entorno">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-20 items-center">
+
+      <div class="w-full lg:w-[40%] space-y-8 order-2 lg:order-1">
+        <div>
+          <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">ISLARES, CANTABRIA</span>
+          <h2 class="cormorant text-4xl md:text-5xl text-primary leading-tight">Entre mar, monta&#241;a y acantilados</h2>
+        </div>
+        <p class="dm-sans text-on-surface-variant leading-relaxed font-light">
+          Petra e Mare se encuentra en Islares, una peque&#241;a localidad costera situada a solo 5 minutos de Castro Urdiales, en una posici&#243;n privilegiada entre Cantabria y el Pa&#237;s Vasco. Su entorno combina playas, calas salvajes, rutas junto al mar, acantilados espectaculares y paisajes verdes abiertos al Cant&#225;brico.
+        </p>
+
+        <div class="space-y-5 pt-2">
+          <div class="flex items-center gap-4">
+            <span class="material-symbols-outlined text-secondary flex-shrink-0">location_on</span>
+            <div>
+              <div class="dm-sans text-sm font-medium text-primary">Castro Urdiales</div>
+              <div class="dm-sans text-xs text-on-surface-variant tracking-wider">5 minutos en coche</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="material-symbols-outlined text-secondary flex-shrink-0">location_on</span>
+            <div>
+              <div class="dm-sans text-sm font-medium text-primary">Bilbao &middot; Museo Guggenheim</div>
+              <div class="dm-sans text-xs text-on-surface-variant tracking-wider">25 minutos en coche</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="material-symbols-outlined text-secondary flex-shrink-0">location_on</span>
+            <div>
+              <div class="dm-sans text-sm font-medium text-primary">Santander</div>
+              <div class="dm-sans text-xs text-on-surface-variant tracking-wider">45 minutos en coche</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="dm-sans text-on-surface-variant leading-relaxed font-light text-sm">
+          Desde la villa se puede disfrutar de algunas de las zonas m&#225;s atractivas de la costa norte: playas de arena, peque&#241;as calas, rutas panor&#225;micas, surf, gastronom&#237;a local, pueblos marineros y tramos del Camino de Santiago. Para muchos viajeros, Islares es uno de esos lugares que sorprenden m&#225;s de lo esperado: peque&#241;o, bonito, aut&#233;ntico y con una energ&#237;a muy especial.
+        </p>
+
+        <div class="sand-line"></div>
+      </div>
+
+      <div class="w-full lg:w-[60%] order-1 lg:order-2">
+        <div class="aspect-[4/3] lg:aspect-[16/11] overflow-hidden">
+          <img
+            src="images/beach.jpg"
+            alt="Playa y entorno natural de Islares, Cantabria"
+            class="w-full h-full object-cover hover:scale-[1.02] transition-transform duration-700"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======== INFORMACIÓN ÚTIL ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface-container-low" id="info">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">INFORMACI&#211;N PR&#193;CTICA</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-primary">Detalles para una llegada sin sorpresas</h2>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">login</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Check-in</div>
+            <div class="cormorant text-xl text-primary">Desde las 16:00</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">logout</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Check-out</div>
+            <div class="cormorant text-xl text-primary">Hasta las 11:00</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">pool</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Piscina</div>
+            <div class="cormorant text-xl text-primary">Abierta todo el a&#241;o</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">hot_tub</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Jacuzzi</div>
+            <div class="cormorant text-xl text-primary">Agua caliente incluida</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">outdoor_grill</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Barbacoa</div>
+            <div class="cormorant text-xl text-primary">Disponible en la villa</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">local_parking</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Parking</div>
+            <div class="cormorant text-xl text-primary">Privado, varios veh&#237;culos</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">lock</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Acceso</div>
+            <div class="cormorant text-xl text-primary">Llegada aut&#243;noma</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">crib</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Beb&#233;s</div>
+            <div class="cormorant text-xl text-primary">Cuna y trona bajo solicitud</div>
+          </div>
+        </div>
+        <div class="bg-surface p-7 editorial-shadow flex gap-4 items-start">
+          <span class="material-symbols-outlined text-secondary flex-shrink-0 mt-0.5">calendar_month</span>
+          <div>
+            <div class="dm-sans text-[10px] tracking-[3px] uppercase text-on-surface-variant mb-1">Estancias</div>
+            <div class="cormorant text-xl text-primary">Largas disponibles</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FAQ ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-surface">
+    <div class="max-w-3xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-secondary mb-4 block">PREGUNTAS FRECUENTES</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-primary">Detalles pr&#225;cticos</h2>
+      </div>
+
+      <div class="divide-y divide-outline-variant/30">
+        <details class="group py-6">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <span class="dm-sans text-base font-light text-primary pr-4">&#191;Cu&#225;l es el horario de entrada y salida?</span>
+            <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+          </summary>
+          <p class="mt-4 dm-sans text-on-surface-variant leading-relaxed text-sm">Check-in a partir de las 16:00h y check-out antes de las 11:00h. El acceso es aut&#243;nomo mediante cerradura inteligente. Para peticiones de horario flexible, cons&#250;ltanos con antelaci&#243;n.</p>
+        </details>
+
+        <details class="group py-6">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <span class="dm-sans text-base font-light text-primary pr-4">&#191;Se admiten mascotas?</span>
+            <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+          </summary>
+          <p class="mt-4 dm-sans text-on-surface-variant leading-relaxed text-sm">S&#237;, Petra e Mare es pet friendly. Entendemos que tu mascota forma parte de la familia. Te pedimos que nos lo indiques al realizar la reserva.</p>
+        </details>
+
+        <details class="group py-6">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <span class="dm-sans text-base font-light text-primary pr-4">&#191;Cu&#225;l es la pol&#237;tica de cancelaci&#243;n?</span>
+            <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+          </summary>
+          <p class="mt-4 dm-sans text-on-surface-variant leading-relaxed text-sm">Cancelaci&#243;n gratuita hasta 14 d&#237;as antes de la llegada. Para cancelaciones con menos antelaci&#243;n, se aplicar&#225; el 50% del importe total de la reserva. Cons&#250;ltanos para casos espec&#237;ficos.</p>
+        </details>
+
+        <details class="group py-6">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <span class="dm-sans text-base font-light text-primary pr-4">&#191;Cu&#225;l es la estancia m&#237;nima?</span>
+            <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+          </summary>
+          <p class="mt-4 dm-sans text-on-surface-variant leading-relaxed text-sm">En temporada alta (julio y agosto) la estancia m&#237;nima es de 5 noches. El resto del a&#241;o, la estancia m&#237;nima es de 2 noches. Para estancias de larga duraci&#243;n, cont&#225;ctanos directamente.</p>
+        </details>
+
+        <details class="group py-6">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <span class="dm-sans text-base font-light text-primary pr-4">&#191;Se pueden celebrar eventos o reuniones?</span>
+            <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+          </summary>
+          <p class="mt-4 dm-sans text-on-surface-variant leading-relaxed text-sm">Petra e Mare puede valorar celebraciones &#237;ntimas o usos especiales bajo solicitud previa y escrita, indicando fechas, n&#250;mero de personas y finalidad. No se autorizan eventos no acordados previamente.</p>
+        </details>
+
+        <details class="group py-6">
+          <summary class="flex justify-between items-center cursor-pointer list-none">
+            <span class="dm-sans text-base font-light text-primary pr-4">&#191;Hay servicios b&#225;sicos cerca?</span>
+            <span class="material-symbols-outlined icon-expand transition-transform duration-300 text-on-surface-variant flex-shrink-0">expand_more</span>
+          </summary>
+          <p class="mt-4 dm-sans text-on-surface-variant leading-relaxed text-sm">A 5 minutos en coche se encuentra Castro Urdiales, con supermercados, farmacias, restaurantes y todos los servicios necesarios. Bilbao y Santander est&#225;n a 25 y 45 minutos respectivamente.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== EVENTOS Y USOS ESPECIALES ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-primary-container">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-tertiary-fixed-dim mb-5 block">USOS ESPECIALES</span>
+      <h2 class="cormorant text-4xl md:text-5xl text-background mb-8 leading-tight">Celebraciones &#237;ntimas y usos bajo consulta</h2>
+      <p class="dm-sans text-background/70 leading-relaxed font-light max-w-2xl mx-auto mb-5">
+        Petra e Mare puede valorar celebraciones &#237;ntimas, reuniones especiales o usos concretos de la propiedad, siempre bajo solicitud previa y sujeto a aprobaci&#243;n.
+      </p>
+      <p class="dm-sans text-background/50 text-sm leading-relaxed max-w-2xl mx-auto mb-12">
+        Para eventos, grabaciones audiovisuales o cualquier uso distinto al alojamiento habitual, ser&#225; necesario consultarlo previamente por escrito indicando fechas, n&#250;mero de personas y finalidad.
+      </p>
+      <a href="#contacto" class="inline-block border border-background/30 text-background px-10 py-4 text-[11px] font-medium tracking-[3px] uppercase hover:bg-background/10 transition-all">
+        Consultar disponibilidad
+      </a>
+    </div>
+  </section>
+
+  <!-- ======== CTA FINAL / CONTACTO ======== -->
+  <section class="py-24 md:py-32 px-6 md:px-16 bg-primary-container border-t border-background/5" id="contacto">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 lg:gap-20">
+
+      <div class="w-full lg:w-1/2">
+        <span class="dm-sans text-[11px] font-medium tracking-[4px] uppercase text-tertiary-fixed-dim mb-5 block">RESERVA TU ESCAPADA</span>
+        <h2 class="cormorant text-4xl md:text-5xl text-background mb-4 leading-tight">Descubre Petra <span class="playfair italic font-normal lowercase">e</span> Mare</h2>
+        <p class="dm-sans text-background/60 font-light mb-10 leading-relaxed">Una villa privada para vivir el Cant&#225;brico con calma, privacidad y car&#225;cter.</p>
+
+        <form id="contact-form" class="space-y-7" novalidate>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-7">
+            <div class="border-b border-background/20 py-2">
+              <input id="form-name" class="bg-transparent border-none w-full p-0 focus:ring-0 placeholder:text-background/40 dm-sans text-sm text-background outline-none" placeholder="Nombre completo" type="text" required />
+            </div>
+            <div class="border-b border-background/20 py-2">
+              <input id="form-email" class="bg-transparent border-none w-full p-0 focus:ring-0 placeholder:text-background/40 dm-sans text-sm text-background outline-none" placeholder="Email" type="email" required />
+            </div>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-7">
+            <div class="border-b border-background/20 py-2">
+              <input id="form-checkin" class="bg-transparent border-none w-full p-0 focus:ring-0 placeholder:text-background/40 dm-sans text-sm text-background outline-none" placeholder="Fecha de llegada" type="date" />
+            </div>
+            <div class="border-b border-background/20 py-2">
+              <input id="form-checkout" class="bg-transparent border-none w-full p-0 focus:ring-0 placeholder:text-background/40 dm-sans text-sm text-background outline-none" placeholder="Fecha de salida" type="date" />
+            </div>
+          </div>
+          <div class="border-b border-background/20 py-2">
+            <select id="form-guests" class="bg-transparent border-none w-full p-0 focus:ring-0 dm-sans text-sm text-background/70 outline-none appearance-none cursor-pointer">
+              <option value="" disabled selected>N&#250;mero de hu&#233;spedes</option>
+              <option value="2">2 hu&#233;spedes</option>
+              <option value="4">4 hu&#233;spedes</option>
+              <option value="6">6 hu&#233;spedes</option>
+              <option value="8">8 hu&#233;spedes (recomendado)</option>
+              <option value="10">10 hu&#233;spedes</option>
+              <option value="11">11 hu&#233;spedes (m&#225;ximo)</option>
+            </select>
+          </div>
+          <div class="border-b border-background/20 py-2">
+            <textarea id="form-message" class="bg-transparent border-none w-full p-0 focus:ring-0 placeholder:text-background/40 dm-sans text-sm text-background outline-none resize-none" placeholder="Mensaje o consulta adicional" rows="3"></textarea>
+          </div>
+          <button type="submit" class="bg-on-tertiary-container text-white px-10 py-4 text-[11px] font-medium tracking-[3px] uppercase hover:opacity-90 transition-all w-full sm:w-auto active:scale-95">
+            Enviar por WhatsApp
+          </button>
+          <p class="dm-sans text-[10px] text-background/30 mt-2">Al enviar, se abrir&#225; WhatsApp con tu consulta prefabricada.</p>
+        </form>
+      </div>
+
+      <div class="w-full lg:w-1/2 flex flex-col justify-center space-y-10">
+        <div>
+          <h4 class="dm-sans text-[10px] tracking-[4px] uppercase text-background/40 mb-5">CONTACTO DIRECTO</h4>
+          <a class="flex items-center gap-4 bg-[#25D366] text-white px-7 py-4 w-fit hover:opacity-90 transition-all" href="https://wa.me/34XXXXXXXXX?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20disponibilidad%20en%20Petra%20e%20Mare.">
+            <span class="material-symbols-outlined" style="font-size:22px;">chat</span>
+            <span class="dm-sans text-sm font-medium tracking-[2px] uppercase">Escr&#237;benos por WhatsApp</span>
+          </a>
+        </div>
+
+        <div>
+          <h4 class="dm-sans text-[10px] tracking-[4px] uppercase text-background/40 mb-3">EMAIL</h4>
+          <a href="mailto:reservas@petraemare.com" class="cormorant text-2xl text-background hover:text-tertiary-fixed-dim transition-colors">reservas@petraemare.com</a>
+        </div>
+
+        <div>
+          <h4 class="dm-sans text-[10px] tracking-[4px] uppercase text-background/40 mb-3">INSTAGRAM</h4>
+          <a href="https://instagram.com/petraemare" target="_blank" rel="noopener noreferrer" class="cormorant text-2xl text-background hover:text-tertiary-fixed-dim transition-colors">@petraemare</a>
+        </div>
+
+        <div>
+          <h4 class="dm-sans text-[10px] tracking-[4px] uppercase text-background/40 mb-3">LOCALIZACI&#211;N</h4>
+          <p class="cormorant text-xl text-background/80">Islares, Castro Urdiales &middot; Cantabria</p>
+        </div>
+
+        <div class="border border-background/15 px-6 py-5">
+          <p class="dm-sans text-[11px] tracking-wider uppercase text-background/40 leading-relaxed">
+            Gestionado por Fine Line Company<br/>
+            <span class="text-background/25 normal-case tracking-normal dm-sans text-[11px]">Hospitalidad cuidada y experiencia contrastada</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="bg-[#1A1817] pt-16 pb-10 px-6 flex flex-col items-center justify-center text-center">
+    <div class="cormorant text-xl font-light text-background/90 mb-8 tracking-widest">
+      PETRA <span class="playfair italic font-normal lowercase">e</span> MARE
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-5 md:gap-8 mb-10">
+      <a class="text-background/40 hover:text-background/80 transition-colors dm-sans text-[10px] font-medium tracking-[3px] uppercase" href="#villa">La Villa</a>
+      <a class="text-background/40 hover:text-background/80 transition-colors dm-sans text-[10px] font-medium tracking-[3px] uppercase" href="#entorno">Entorno</a>
+      <a class="text-background/40 hover:text-background/80 transition-colors dm-sans text-[10px] font-medium tracking-[3px] uppercase" href="#experiencias">Experiencias</a>
+      <a class="text-background/40 hover:text-background/80 transition-colors dm-sans text-[10px] font-medium tracking-[3px] uppercase" href="#info">Tarifas</a>
+      <a class="text-background/40 hover:text-background/80 transition-colors dm-sans text-[10px] font-medium tracking-[3px] uppercase" href="#contacto">Contacto</a>
+    </div>
+
+    <div class="w-16 h-px bg-background/10 mb-8"></div>
+
+    <p class="text-background/25 dm-sans text-[10px] tracking-[2px] uppercase">
+      &#169; 2025 Petra e Mare &middot; Islares, Cantabria &middot; Gestionado por Fine Line Company
+    </p>
+  </footer>
+
+  <!-- ======== FLOATING WHATSAPP ======== -->
+  <a
+    class="fixed bottom-6 right-6 z-[100] bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform"
+    href="https://wa.me/34XXXXXXXXX?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20disponibilidad%20en%20Petra%20e%20Mare."
+    aria-label="Contactar por WhatsApp"
+  >
+    <span class="material-symbols-outlined" style="font-size:26px; font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;">chat</span>
+  </a>
+
+  <!-- ======== SCRIPTS ======== -->
+  <script>
+    // Nav scroll shadow
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    }, { passive: true });
+
+    // Mobile menu
+    var menuOpen = false;
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const bar1 = document.getElementById('bar1');
+    const bar2 = document.getElementById('bar2');
+    const bar3 = document.getElementById('bar3');
+
+    function closeMobileMenu() {
+      menuOpen = false;
+      mobileMenu.classList.remove('open');
+      bar1.style.transform = '';
+      bar2.style.opacity = '1';
+      bar3.style.transform = '';
+      bar3.style.width = '1rem';
+    }
+
+    hamburger.addEventListener('click', function() {
+      menuOpen = !menuOpen;
+      if (menuOpen) {
+        mobileMenu.classList.add('open');
+        bar1.style.transform = 'translateY(6px) rotate(45deg)';
+        bar2.style.opacity = '0';
+        bar3.style.transform = 'translateY(-6px) rotate(-45deg)';
+        bar3.style.width = '1.5rem';
+      } else {
+        closeMobileMenu();
+      }
+    });
+
+    // Contact form -> WhatsApp
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var name    = document.getElementById('form-name').value.trim();
+      var email   = document.getElementById('form-email').value.trim();
+      var checkin = document.getElementById('form-checkin').value;
+      var checkout= document.getElementById('form-checkout').value;
+      var guests  = document.getElementById('form-guests').value;
+      var message = document.getElementById('form-message').value.trim();
+
+      if (!name || !email) {
+        alert('Por favor, completa tu nombre y email.');
+        return;
+      }
+
+      var text = 'Hola, me gustar\u00EDa consultar disponibilidad en Petra e Mare.\n\n';
+      text += 'Nombre: ' + name + '\n';
+      text += 'Email: ' + email + '\n';
+      if (checkin)  text += 'Llegada: ' + checkin + '\n';
+      if (checkout) text += 'Salida: ' + checkout + '\n';
+      if (guests)   text += 'Hu\u00E9spedes: ' + guests + '\n';
+      if (message)  text += '\nMensaje: ' + message;
+
+      var url = 'https://wa.me/34XXXXXXXXX?text=' + encodeURIComponent(text);
+      window.open(url, '_blank');
+    });
+  </script>
+
+</body>
+</html>
